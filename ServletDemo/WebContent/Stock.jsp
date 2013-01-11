@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1" import="java.util.*" import="aut.DB.*"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1" import="java.util.*" import="at.htlinn.ortner.db.*"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -10,7 +10,7 @@
 	
 	<h4>Derzeitige Lagerbestände:</h4>
 	<table border="1">
-		  <tr>
+		  	<tr>
 		  	<th>#ID</th>
 		  	<th>Modell</th>
 		    <th>St&uuml;ck im Lager</th>
@@ -27,5 +27,6 @@
 		    }
 		    %>
 		</table>
+		<a href="Sales.jsp">Verk&auml;ufe</a>
 </body>
 </html>
